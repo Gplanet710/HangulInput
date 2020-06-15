@@ -56,12 +56,6 @@ public class HangulInput {
                     guiheight / 2 - 78,
                     12, 12, "", HANGUL_BUILDER
             ));
-        } else if (event.getGui() instanceof CreativeScreen) {
-            event.addWidget(new InputModeIndicatorWidget(
-                    guiwidth / 2 + 77,
-                    guiheight / 2 - 64,
-                    12, 12, "", HANGUL_BUILDER
-            ));
         } else if (event.getGui() instanceof WorldSelectionScreen) {
             event.addWidget(new InputModeIndicatorWidget(
                     guiwidth / 2 - 125,
